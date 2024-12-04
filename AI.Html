@@ -74,7 +74,7 @@
       // Replace with your backend API endpoint
       const apiEndpoint = `https://api.example.com/search?q=${encodeURIComponent(query)}`;
       fetch(apiEndpoint)
-        .then(response => response.json())
+//        .then(response => response.json())
         .then(data => {
           alert("Search results: " + JSON.stringify(data));
         })
